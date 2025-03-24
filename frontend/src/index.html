@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./styles.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="toolbar">
+        <span class="toolbar__logo">
+            <span class="scraping-logo">
+                <span class="letter-s">S</span>
+                <span class="letter-c">c</span>
+                <span class="letter-r">r</span>
+                <span class="letter-a">a</span>
+                <span class="letter-p">p</span>
+                <span class="letter-i">i</span>
+                <span class="letter-n">n</span>
+                <span class="letter-g">g</span>
+              </span>
+              
+        </span>
+        <div class="toolbar__search">
+            <input type="text" id="search" name="search" placeholder="Pesquisar">
+            <span style="display: flex; align-items: center; gap: 0.8rem;">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i id="clearSearchButton" class="fa-solid fa-xmark" style="font-size: 1.2rem; cursor: pointer;" onclick="clearSearch()"></i>
+            </span>
+        </div>
+    </div>
+
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Recipe Title</th>
+                    <th>Star Rating</th>
+                    <th>Review Count</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="4" style="text-align: center; padding: 4rem 0; font-size: 1.2rem;">Sem conteúdo para exibir</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+  
+    
+    <script src="./script.js"></script>
+</body>
+</html>
